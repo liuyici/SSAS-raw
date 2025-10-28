@@ -1,0 +1,80 @@
+{
+  "DFN": {
+    "total_params": 9663588,
+    "trainable_params": 9663588,
+    "flops": 19303240,
+    "thop_params": null,
+    "timing": {
+      "avg_time_s": 0.0006589616030454635,
+      "std_time_s": 4.850590833548547e-05,
+      "throughput_samples_per_s": 12140.312824035756,
+      "batch_size": 8,
+      "device": "cuda"
+    }
+  },
+  "netA": {
+    "total_params": 9579350,
+    "trainable_params": 9579350,
+    "flops": 19139400,
+    "thop_params": null,
+    "timing": {
+      "avg_time_s": 0.00024700159654021263,
+      "std_time_s": 2.4063194980470547e-05,
+      "throughput_samples_per_s": 32388.454617529467,
+      "batch_size": 8,
+      "device": "cuda"
+    }
+  },
+  "netB": {
+    "total_params": 82432,
+    "trainable_params": 82432,
+    "flops": 163840,
+    "thop_params": null,
+    "timing": {
+      "avg_time_s": 0.00025638239979743955,
+      "std_time_s": 1.0019344314421957e-05,
+      "throughput_samples_per_s": 31203.38996093559,
+      "batch_size": 8,
+      "device": "cuda"
+    }
+  },
+  "netC": {
+    "total_params": 387,
+    "trainable_params": 387,
+    "flops": 0,
+    "thop_params": null,
+    "timing": {
+      "avg_time_s": 0.00016546559929847717,
+      "std_time_s": 5.523132532497282e-05,
+      "throughput_samples_per_s": 48348.41824474404,
+      "batch_size": 8,
+      "device": "cuda"
+    }
+  },
+  "netD": {
+    "total_params": 1806,
+    "trainable_params": 1806,
+    "flops": 0,
+    "thop_params": null,
+    "timing": {
+      "avg_time_s": 0.00013342719972133637,
+      "std_time_s": 6.621249419340833e-06,
+      "throughput_samples_per_s": 59957.789841262165,
+      "batch_size": 8,
+      "device": "cuda"
+    }
+  },
+  "netF_sim": {
+    "total_params": 1806,
+    "trainable_params": 1806,
+    "flops": 0,
+    "thop_params": null,
+    "timing": {
+      "avg_time_s": 0.00015877119824290277,
+      "std_time_s": 4.429729080936677e-05,
+      "throughput_samples_per_s": 50386.972502159144,
+      "batch_size": 8,
+      "device": "cuda"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+
+--- Model complexity report ---
+Model: DFN
+  total_params: 9663588
+  trainable_params: 9663588
+  flops: 19,303,240
+  timing (avg s): 0.000659, std: 0.000049, throughput samp/s: 12140.31, device: cuda
+
+Model: netA
+  total_params: 9579350
+  trainable_params: 9579350
+  flops: 19,139,400
+  timing (avg s): 0.000247, std: 0.000024, throughput samp/s: 32388.45, device: cuda
+
+Model: netB
+  total_params: 82432
+  trainable_params: 82432
+  flops: 163,840
+  timing (avg s): 0.000256, std: 0.000010, throughput samp/s: 31203.39, device: cuda
+
+Model: netC
+  total_params: 387
+  trainable_params: 387
+  flops: 0
+  timing (avg s): 0.000165, std: 0.000055, throughput samp/s: 48348.42, device: cuda
+
+Model: netD
+  total_params: 1806
+  trainable_params: 1806
+  flops: 0
+  timing (avg s): 0.000133, std: 0.000007, throughput samp/s: 59957.79, device: cuda
+
+Model: netF_sim
+  total_params: 1806
+  trainable_params: 1806
+  flops: 0
+  timing (avg s): 0.000159, std: 0.000044, throughput samp/s: 50386.97, device: cuda
+
+Wrote complexity JSON/CSV to: snapshot/complexity_run

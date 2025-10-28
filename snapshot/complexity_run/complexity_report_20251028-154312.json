@@ -1,0 +1,80 @@
+{
+  "DFN": {
+    "total_params": 9663588,
+    "trainable_params": 9663588,
+    "flops": null,
+    "thop_params": null,
+    "timing": {
+      "avg_time_s": 0.0007373824000358581,
+      "std_time_s": 4.167554287786716e-05,
+      "throughput_samples_per_s": 10849.187612303966,
+      "batch_size": 8,
+      "device": "cuda"
+    }
+  },
+  "netA": {
+    "total_params": 9579350,
+    "trainable_params": 9579350,
+    "flops": null,
+    "thop_params": null,
+    "timing": {
+      "avg_time_s": 0.0002099007986485958,
+      "std_time_s": 2.507580541147561e-05,
+      "throughput_samples_per_s": 38113.24231020747,
+      "batch_size": 8,
+      "device": "cuda"
+    }
+  },
+  "netB": {
+    "total_params": 82432,
+    "trainable_params": 82432,
+    "flops": null,
+    "thop_params": null,
+    "timing": {
+      "avg_time_s": 0.00023327200040221214,
+      "std_time_s": 3.240353323957314e-05,
+      "throughput_samples_per_s": 34294.728841036405,
+      "batch_size": 8,
+      "device": "cuda"
+    }
+  },
+  "netC": {
+    "total_params": 387,
+    "trainable_params": 387,
+    "flops": null,
+    "thop_params": null,
+    "timing": {
+      "avg_time_s": 0.00021022560000419618,
+      "std_time_s": 5.620047221811214e-06,
+      "throughput_samples_per_s": 38054.35684255541,
+      "batch_size": 8,
+      "device": "cuda"
+    }
+  },
+  "netD": {
+    "total_params": 1806,
+    "trainable_params": 1806,
+    "flops": null,
+    "thop_params": null,
+    "timing": {
+      "avg_time_s": 0.0002199040003120899,
+      "std_time_s": 1.8872944891499782e-05,
+      "throughput_samples_per_s": 36379.5110077412,
+      "batch_size": 8,
+      "device": "cuda"
+    }
+  },
+  "netF_sim": {
+    "total_params": 1806,
+    "trainable_params": 1806,
+    "flops": null,
+    "thop_params": null,
+    "timing": {
+      "avg_time_s": 0.00018719360008835793,
+      "std_time_s": 5.3821535018065155e-05,
+      "throughput_samples_per_s": 42736.503791923926,
+      "batch_size": 8,
+      "device": "cuda"
+    }
+  }
+}
